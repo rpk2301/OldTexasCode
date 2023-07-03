@@ -21,7 +21,9 @@ public class EnhancedFor
 	// post: return sum of elements
 	// uses enhanced for loop
 	public static int sumListEnhanced(int[] list)
-	{	int total = 0;
+
+	{	
+		int total = 0;
 		for(int val : list)
 		{	total += val;
 		}
